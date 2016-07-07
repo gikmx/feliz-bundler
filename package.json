@@ -1,0 +1,26 @@
+{
+  "name": "feliz-bundler",
+  "version": "0.0.1",
+  "description": "shared logic for serving static bundle files.",
+  "main": "index.js",
+  "author": "Héctor Menéndez <etor@gik.mx>",
+  "license": "MIT",
+  "analyze": true,
+  "keywords": [
+    "feliz",
+    "plugin",
+    "bundles"
+  ],
+  "repository":{
+    "type": "git",
+    "url" : "https://github.com/gikmx/feliz-bundler"
+  },
+  "bugs":{
+    "url": "https://github.com/gikmx/feliz-bundler/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  }
+}
