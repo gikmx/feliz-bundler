@@ -1,6 +1,6 @@
 {
   "name": "feliz-bundler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "shared logic for serving static bundle files.",
   "main": "lib/index.js",
   "author": "Héctor Menéndez <etor@gik.mx>",
