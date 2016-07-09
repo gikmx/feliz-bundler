@@ -1,5 +1,5 @@
 {
-  "name": "feliz-bundler",
+  "name": "feliz.bundler",
   "version": "0.0.2",
   "description": "shared logic for serving static bundle files.",
   "main": "lib/index.js",
@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gikmx/feliz-bundler"
+    "url": "https://github.com/gikmx/feliz.bundler"
   },
   "bugs": {
-    "url": "https://github.com/gikmx/feliz-bundler/issues"
+    "url": "https://github.com/gikmx/feliz.bundler/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
