@@ -1,6 +1,6 @@
 {
   "name": "feliz.bundler",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "shared logic for serving static bundle files.",
   "main": "lib/index.js",
   "author": "Héctor Menéndez <etor@gik.mx>",
@@ -19,10 +19,14 @@
     "url": "https://github.com/gikmx/feliz.bundler/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "./node_modules/.bin/feliz.hooks pre-commit"
   },
   "dependencies": {
     "joi": "^8.4.2",
     "rxjs": "^5.0.0-beta.10"
+  },
+  "devDependencies": {
+    "feliz.hooks": "0.0.4",
+    "husky": "^0.11.5"
   }
 }
